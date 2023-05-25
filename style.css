@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#workouts {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.workout {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.workout-title {
+  font-weight: bold;
+}
+
+.workout-date {
+  float: right;
+}
