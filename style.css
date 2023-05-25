@@ -23,3 +23,15 @@ h1 {
 .workout-date {
   float: right;
 }
+
+.workout-details {
+  margin-top: 10px;
+}
+
+.workout-weight {
+  float: left;
+}
+
+.workout-sets {
+  float: right;
+}
