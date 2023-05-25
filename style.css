@@ -35,3 +35,7 @@ h1 {
 .workout-sets {
   float: right;
 }
+body {
+  background-color: lightblue;
+}
+
