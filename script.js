@@ -23,6 +23,26 @@ function addWorkout() {
   // Add the workout date element to the workout.
   workout.appendChild(workoutDateElement);
 
+  // Get the workout weight from the user.
+  var workoutWeight = prompt("Enter the workout weight:");
+
+  // Create a new `<p>` element for the workout weight.
+  var workoutWeightElement = document.createElement("p");
+  workoutWeightElement.textContent = workoutWeight;
+
+  // Add the workout weight element to the workout.
+  workout.appendChild(workoutWeightElement);
+
+  // Get the workout sets from the user.
+  var workoutSets = prompt("Enter the workout sets:");
+
+  // Create a new `<p>` element for the workout sets.
+  var workoutSetsElement = document.createElement("p");
+  workoutSetsElement.textContent = workoutSets;
+
+  // Add the workout sets element to the workout.
+  workout.appendChild(workoutSetsElement);
+
   // Add the workout to the list of workouts.
   document.getElementById("workouts").appendChild(workout);
 }
